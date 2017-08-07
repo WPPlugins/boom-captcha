@@ -1,0 +1,146 @@
+<div class="wrap enmask" id="enmask">
+	<?php if (!empty($messages)):?>
+		<div id="message" class="updated">
+			<?php foreach ($messages as $message):?>
+				<p><?php echo $message?></p>
+			<?php endforeach;?>
+		</div>
+	<?php endif?>
+	<h2><?php _e('Settings BoomCaptcha', 'enmask')?></h2>
+	<p>
+		<b><?php _e('License information', 'enmask')?></b><br/>
+		<?php _e('Your license is', 'enmask')?>
+		<?php if ($version == EnMask_Wp::VERSION_FREE):?>
+			"<?php _e('Free', 'enmask')?>", <?php _e('you can upgrade to "PRO"', 'enmask')?>, <a href="http://boomcaptcha.com"><?php _e('click here', 'enmask')?></a>.
+		<?php else:?>
+			"<?php _e('Professional', 'enmask')?>", <?php _e('expire', 'enmask')?> <?php echo date('d.m.Y', $expire)?>
+		<?php endif?>
+	</p>
+	<p>
+		<b><?php _e('Statistic', 'enmask')?></b><br/>
+		<?php _e('Captcha served:', 'enmask')?> <b><?php echo $totalHits?></b> <?php _e('times', 'enmask')?>
+	</p>
+	<div class="row">
+		<table class="quick-stat">
+			<tr>
+				<th>
+					<?php _e('Key words served', 'enmask')?>
+				</th>
+				<th><?php _e('Times', 'enmask')?></th>
+			</tr>
+			<?php $i = 0?>
+			<?php foreach ($quickStat as $row):?>
+				<?php
+					if ($i == 5) {
+						break;
+					}
+				?>
+				<tr>
+					<td class="keyword">"<?php echo $row['keyword_name']?>"</td>
+					<td class="hit"><?php echo $row['keyword_hit']?></td>
+				</tr>
+				<?php $i++?>
+			<?php endforeach;?>
+		</table>
+	</div>
+	<div class="row">
+		<?php
+			$onClick = '';
+			if ($version == EnMask_Wp::VERSION_FREE) {
+				$onClick = 'onclick="alert(\'' . __('This feature avaible only in PRO version', 'enmask') . '\');return false;"';
+			}
+		?>
+		<a href="<?php echo $csvUrl?>" <?php echo $onClick?>><?php _e('Click here', 'enmask')?></a>
+		<?php _e('to export all the Keywords served stats in .CSV file.', 'enmask')?>
+		<sup>*<?php _e('only for PRO version', 'enmask')?></sup>
+	</div>
+	<div class="row">
+		<b><?php _e('Manage captcha', 'enmask')?></b><br/>
+		<form action="<?php echo $actionKeywords?>" method="post" class="keywords-form">
+			<table class="keywords-tbl">
+				<?php $hiddenRm = false?>
+				<?php foreach ($keywords as $rowKey => $row):?>
+					<tr>
+						<td class="keyword-column">
+							<input type="hidden" name="id[]" value="<?php echo $row['keyword_id']?>" class="keyword-id" />
+							<input type="text" name="keyword[]" value="<?php echo htmlspecialchars($row['keyword_name'])?>" class="keyword <?php if (!empty($errors[$rowKey])):?>error<?php endif?>" />
+							<?php if (!empty($errors[$rowKey])):?>
+								<div class="keyword-error"><?php echo $errors[$rowKey]?></div>
+							<?php endif?>
+						</td>
+						<td>
+							<select name="percent[]" class="percent">
+								<?php foreach ($percents as $percent):?>
+									<option value="<?php echo $percent?>" <?php if ($percent == $row['keyword_percent']):?>selected<?php endif?>>
+										<?php echo $percent?>%
+									</option>
+								<?php endforeach?>
+							</select>
+						</td>
+						<td>
+							<button type="button" class="color-button remove <?php if ($hiddenRm):?>none<?php endif?>">
+								<?php _e('delete', 'enmask')?>
+							</button>
+						</td>
+					</tr>
+				<?php endforeach?>
+				<tr class="sample-row">
+					<td>
+						<input type="hidden" name="id[]" value="" class="keyword-id" disabled="true" />
+						<input type="text" name="keyword[]" value="" class="keyword" disabled="true" />
+					</td>
+					<td>
+						<select name="percent[]" class="percent" disabled="true">
+							<?php foreach ($percents as $percent):?>
+								<option value="<?php echo $percent?>"><?php echo $percent?>%</option>
+							<?php endforeach?>
+						</select>
+					</td>
+					<td>
+						<button type="button" class="remove color-button" disabled="true">
+							<?php _e('delete', 'enmask')?>
+						</button>
+					</td>
+				</tr>
+			</table>
+			<button type="button" class="add-keyword color-button <?php if (sizeof($keywords) == 10):?>none<?php endif?>">
+				<?php _e('Add keyword', 'enmask')?>
+			</button>
+			<button type="submit" class="save-changes color-button">
+				<?php _e('Save changes', 'enmask')?>
+			</button>
+		</form>
+	</div>
+	<div class="row activation-row">
+		<b><?php _e('Activation options', 'enmask')?></b><br/>
+		<a name="activation-options"></a>
+		<form method="post" action="<?php echo $activationAction?>" class="actiovation-form">
+			<ul>
+				<?php foreach ($activationOptions as $key => $val):?>
+					<li>
+						<input type="checkbox" name="protect[]" value="<?php echo $key?>" id="enmask-protect-<?php echo $key?>" <?php if ($val['value']):?>checked="1"<?php endif?> />
+						<label for="enmask-protect-<?php echo $key?>"><?php echo $val['text']?></label>
+					</li>
+				<?php endforeach;?>
+			</ul>
+			<button type="submit"><?php _e('Update', 'enmask')?></button>
+		</form>
+	</div>
+	<div class="clear"></div>
+	<br/>
+	<div class="row">
+		<a name="license"></a>
+		<form action="<?php echo $licenseAction?>" method="post" class="license-form">
+			<b><?php _e('Your license key:', 'enmask')?></b><br/>
+			<input type="text" name="license" value="<?php echo $licenseKey?>" class="license-key" />
+			&nbsp;
+			<button type="submit"><?php _e('Update', 'enmask')?></button>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		var admin = new enmask.admin(jQuery('#enmask'), '<?php echo $version?>');
+		admin.setup();
+	});
+</script>

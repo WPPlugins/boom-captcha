@@ -1,0 +1,52 @@
+@import url("styles.css");
+
+div#boomcaptcha {
+	height: 178px;
+	background: url(../imgs/bg_big.png) no-repeat;
+}
+
+#boomcaptcha .enmask-code {
+	font-size: 300%;
+	margin: 0;
+}
+
+#boomcaptcha input.enmask-result {
+	display: block;
+	width: 258px;
+	height: 44px;
+	background: url(../imgs/result_bg.png) no-repeat;
+	border: 0;
+	border-radius: 0;
+	margin: 4px 0 0 5px;
+	padding: 0 5px;
+	font-size: 200%;
+	box-shadow: none;
+	position: static;
+	text-indent: 0;
+	color: #000;
+}
+
+#boomcaptcha .help-msg {
+	margin: 0;
+	height: 20px;
+	padding: 0 0 0 7px;
+}
+
+#enmask-captcha-checking {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background: red;
+	display: none;
+	padding: 10px;
+	margin: 0;
+	color: #fff;
+}
+
+.enmask-login-form {
+	margin: 0 0 15px -15px;
+}
+
+.enmask-login-form .enmask-result {
+	width: 268px !important;
+}

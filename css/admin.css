@@ -1,0 +1,81 @@
+body .enmask .none {
+	display: none;
+}
+
+.enmask .keywords-form td {
+	vertical-align: top;
+}
+
+.enmask .keywords-form .keyword-column {
+	width: 138px;
+}
+
+.enmask .keywords-form .sample-row {
+	display: none;
+}
+
+.enmask input.error {
+	background: #FB3F41;
+}
+
+.enmask .keyword-error {
+	color: #FB3F41;
+}
+
+.enmask .quick-stat {
+	border: 1px solid #ccc;
+}
+
+.enmask .quick-stat td,
+.enmask .quick-stat th {
+	padding: 5px;
+}
+
+.enmask .quick-stat .hit {
+	text-align: center;
+}
+
+.enmask .quick-stat tr:hover td {
+	background: #ccc;
+}
+
+.enmask .add-keyword {
+	margin: 0 0 8px 0;
+	color: #fff;
+	background: #92ac38;
+}
+
+.enmask .save-changes {
+	background: #358bb7;
+	color: #fff;
+}
+
+.enmask .remove {
+	background: #f4f4f4;
+	color: #333333;
+	margin: 5px 0 0 0;
+}
+
+.enmask .color-button {
+	display: block;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #000;
+}
+
+.enmask .row {
+	margin: 10px 0 10px 0;
+}
+
+.enmask .activation-row {
+	background: #ccc;
+	padding: 10px;
+	float: left;
+}
+
+.enmask .clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}

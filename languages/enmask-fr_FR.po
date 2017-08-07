@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Boomcaptcha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-23 13:44+0300\n"
+"PO-Revision-Date: 2012-05-23 13:51+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha\n"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:97
+msgid "Settings"
+msgstr "Paramètres"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:105
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:9
+msgid "Settings BoomCaptcha"
+msgstr "Paramètres BoomCaptcha"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:136
+msgid "Checking the captcha..."
+msgstr "Vérification de la captcha ..."
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:137
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:158
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:172
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:189
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:204
+msgid "Captcha code is incorrect"
+msgstr "Captcha code est incorrect"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:259
+msgid "Please type the text above:"
+msgstr "S'il vous plaît entrez le texte ci-dessus:"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Model/ActivationOptions.php:17
+msgid "Enable for comment forms"
+msgstr "Activer pour les formulaires de commentaires"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Model/ActivationOptions.php:18
+msgid "Enable for register forms"
+msgstr "Activer pour les formulaires de registre"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Model/ActivationOptions.php:19
+msgid "Enable for logged in users"
+msgstr "Activer pour les utilisateurs connectés"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Model/ActivationOptions.php:20
+msgid "Enable for lost password"
+msgstr "Activer le mot de passe perdu"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Model/ActivationOptions.php:21
+msgid "Enable for login form"
+msgstr "Activer pour formulaire de connexion"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Page/Settings.php:58
+msgid "Keywords was successfully saved."
+msgstr "Mots-clés a été correctement enregistré."
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Page/Settings.php:107
+msgid "Keyword can contain only latin characters, numbers and spaces."
+msgstr "Mot-clé ne peut contenir que des caractères latins, des chiffres et des espaces."
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Page/Settings.php:109
+msgid "Keyword max length is 20"
+msgstr "Longueur maximale est de 20 mots-clés"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Page/Settings.php:111
+#, php-format
+msgid "Summary % cannot be greater than 100."
+msgstr "Résumé% ne peut pas être supérieur à 100."
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:11
+msgid "License information"
+msgstr "informations sur la licence"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:12
+msgid "Your license is"
+msgstr "Votre licence est"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:14
+msgid "Free"
+msgstr "libre"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:14
+msgid "you can upgrade to \"PRO\""
+msgstr "vous pouvez mettre à jour \ \"PRO \""
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:14
+msgid "click here"
+msgstr "cliquez ici"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:16
+msgid "Professional"
+msgstr "professionnel"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:16
+msgid "expire"
+msgstr "expirer"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:20
+msgid "Statistic"
+msgstr "Statistique"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:21
+msgid "Captcha served:"
+msgstr "Captcha servi:"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:21
+msgid "times"
+msgstr "fois"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:27
+msgid "Key words served"
+msgstr "Mots clés servi"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:29
+msgid "Times"
+msgstr "Fois"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:50
+msgid "This feature avaible only in PRO version"
+msgstr "Cette fonctionnalité avaible uniquement dans la version PRO"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:53
+msgid "Click here"
+msgstr "Cliquez ici"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:54
+msgid "to export all the Keywords served stats in .CSV file."
+msgstr "d'exporter tous les Mots-clés servi stats dans. fichier CSV."
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:55
+msgid "only for PRO version"
+msgstr "uniquement pour la version PRO"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:58
+msgid "Manage captcha"
+msgstr "Gérer captcha"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:83
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:103
+msgid "delete"
+msgstr "effacer"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:110
+msgid "Add keyword"
+msgstr "Ajouter un mot clé"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:113
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:118
+msgid "Activation options"
+msgstr "Les options d'activation"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:129
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:140
+msgid "Update"
+msgstr "mettre à jour"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:137
+msgid "Your license key:"
+msgstr "Votre clé de licence:"
+

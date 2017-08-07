@@ -1,0 +1,168 @@
+.enmask-captcha {
+	margin: 0;
+	padding: 6px 0 0 6px;
+	background: url(../imgs/bg.png) no-repeat 0 0;
+	width: 286px;
+	height: 158px;
+	border: 0;
+	font-size: 12px;
+	overflow: hidden;
+	color: #000;
+}
+
+div.enmask-with-verify {
+	height: 135px;
+	background-image: url(../imgs/bg_short.png);
+}
+
+body div.enmask-with-verify-copyright {
+	position: relative;
+	height: 148px;
+/*	background-color: red;*/
+}
+
+div.enmask-with-copyright {
+	position: relative;
+	height: 171px;
+/*	background-color: red;*/
+}
+
+.enmask-captcha .enmask-code {
+	width: 277px;
+	height: 72px;
+	line-height: 72px;
+	margin: 0;
+	padding: 0;
+	background: url(../imgs/code_bg.png) no-repeat;
+	border: 0;
+	text-align: center;
+	font-size: 300%;
+	overflow: hidden;
+	overflow-x: auto;
+	white-space: nowrap;
+}
+
+.enmask-captcha .enmask-control {
+	height: 22px;
+	margin: 5px 0 0 60px;
+}
+
+.enmask-with-verify div.enmask-control {
+	width: 100px;
+	height: 45px;
+	float: left;
+	margin: 6px 0 0 10px;
+}
+
+.enmask-captcha .enmask-size {
+	width: 163px;
+	height: 18px;
+	background: url(../imgs/slider_bg.png) no-repeat 0 0;
+	float: left;
+	margin: 2px 0 0 0;
+}
+
+.enmask-with-verify .enmask-size {
+	width: 100px;
+	background-image: url(../imgs/slider_bg_short.png);
+	float: none;
+	margin: 0;
+}
+
+.enmask-captcha .enmask-slider {
+	width: 129px;
+	height: 14px;
+	position: relative;
+	padding: 4px 0 0 0;
+	left: 14px;
+	cursor: pointer;
+}
+
+.enmask-with-verify .enmask-size .enmask-slider {
+	width: 69px;
+}
+
+.enmask-captcha .enmask-knob {
+	display: block;
+	width: 9px;
+	height: 9px;
+	cursor: pointer;
+	background: url(../imgs/knob_bg.png) no-repeat;
+	position: absolute;
+}
+
+.enmask-with-verify .enmask-control .enmask-refresh {
+	margin: 7px 0 0 9px;
+}
+
+.enmask-captcha .enmask-refresh {
+	display: block;
+	float: left;
+	width: 19px;
+	height: 22px;
+	background: url(../imgs/refresh.png) no-repeat;
+	margin: 0 0 0 21px;
+}
+
+.enmask-captcha .enmask-result {
+	display: block;
+	width: 258px;
+	height: 44px;
+	background: url(../imgs/result_bg.png) no-repeat;
+	border: 0;
+	margin: 4px 0 0 5px;
+	padding: 0 5px;
+	font-size: 200%;
+}
+
+.enmask-with-verify input.enmask-result {
+	width: 148px;
+	height: 44px;
+	background: url(../imgs/result_bg_short.png) no-repeat;
+	margin: 8px 0 0 5px;
+	float: left;
+}
+
+.enmask-with-verify .enmask-verify {
+	display: block;
+	float: left;
+	width: 72px;
+	height: 21px;
+	padding: 2px 0 0 0;
+	background: url(../imgs/verify.png) no-repeat;
+	margin: 6px 0 0 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+.enmask-with-verify .enmask-verify:link,
+.enmask-with-verify .enmask-verify:hover,
+.enmask-with-verify .enmask-verify:active,
+.enmask-with-verify .enmask-verify:visited {
+	font-family: "Arial Black",	"Helvetica CY",	"Nimbus Sans L", "Sans-serif";
+	font-size: 12px;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.enmask-captcha  .enmask-clear {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+.enmask-captcha .enmask-copyright {
+	position: absolute;
+	left: 96px;
+	bottom: 0px;
+}
+
+.enmask-captcha .enmask-copyright:link,
+.enmask-captcha .enmask-copyright:hover,
+.enmask-captcha .enmask-copyright:active,
+.enmask-captcha .enmask-copyright:visited {
+	color: #989898;
+	text-decoration: underline;
+	font-size: 90%;
+	font-family: Verdana, Geneva CY, DejaVu Sans, Sans-serif;
+}

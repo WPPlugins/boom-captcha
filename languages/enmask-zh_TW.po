@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Boomcaptcha\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-23 14:12+0300\n"
+"PO-Revision-Date: 2012-05-23 14:18+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha\n"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:97
+msgid "Settings"
+msgstr "設置"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:105
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:9
+msgid "Settings BoomCaptcha"
+msgstr "設置BoomCaptcha"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:136
+msgid "Checking the captcha..."
+msgstr "檢查的captcha..."
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:137
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:158
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:172
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:189
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:204
+msgid "Captcha code is incorrect"
+msgstr "驗證碼的代碼是不正確的"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Init.php:259
+msgid "Please type the text above:"
+msgstr "請輸入上面的文字："
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Model/ActivationOptions.php:17
+msgid "Enable for comment forms"
+msgstr "評論形式啟用"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Model/ActivationOptions.php:18
+msgid "Enable for register forms"
+msgstr "登記表格啟用"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Model/ActivationOptions.php:19
+msgid "Enable for logged in users"
+msgstr "啟用登錄的用戶"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Model/ActivationOptions.php:20
+msgid "Enable for lost password"
+msgstr "忘記密碼啟用"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Model/ActivationOptions.php:21
+msgid "Enable for login form"
+msgstr "啟用登錄表單"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Page/Settings.php:58
+msgid "Keywords was successfully saved."
+msgstr "關鍵字已成功保存。"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Page/Settings.php:107
+msgid "Keyword can contain only latin characters, numbers and spaces."
+msgstr "關鍵字可以包含唯一的拉丁字符，數字和空格。"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Page/Settings.php:109
+msgid "Keyword max length is 20"
+msgstr "關鍵字的最大長度是20"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/libs/EnMask/Wp/Page/Settings.php:111
+#, php-format
+msgid "Summary % cannot be greater than 100."
+msgstr "摘要％不能大於100。"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:11
+msgid "License information"
+msgstr "許可證信息"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:12
+msgid "Your license is"
+msgstr "您的許可"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:14
+msgid "Free"
+msgstr "免費"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:14
+msgid "you can upgrade to \"PRO\""
+msgstr "你可以升級到\“專業\”"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:14
+msgid "click here"
+msgstr "點擊這裡"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:16
+msgid "Professional"
+msgstr "專業的"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:16
+msgid "expire"
+msgstr "到期"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:20
+msgid "Statistic"
+msgstr "統計"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:21
+msgid "Captcha served:"
+msgstr "驗證碼送達："
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:21
+msgid "times"
+msgstr "次"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:27
+msgid "Key words served"
+msgstr "主要的話服務"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:29
+msgid "Times"
+msgstr "時報"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:50
+msgid "This feature avaible only in PRO version"
+msgstr "此功能只有在PRO版本avaible"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:53
+msgid "Click here"
+msgstr "點擊這裡"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:54
+msgid "to export all the Keywords served stats in .CSV file."
+msgstr "導出所有關鍵字擔任。CSV文件中的統計。"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:55
+msgid "only for PRO version"
+msgstr "僅在專業版"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:58
+msgid "Manage captcha"
+msgstr "管理驗證碼"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:83
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:103
+msgid "delete"
+msgstr "刪除"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:110
+msgid "Add keyword"
+msgstr "新增關鍵字"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:113
+msgid "Save changes"
+msgstr "保存更改"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:118
+msgid "Activation options"
+msgstr "激活選項"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:129
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:140
+msgid "Update"
+msgstr "更新"
+
+#: /vhosts/steve-wp-plugin.local/pluginfree/wp/wp-content/plugins/boomcaptcha/tpls/settings.php:137
+msgid "Your license key:"
+msgstr "您的許可證密鑰："
+
